@@ -36,16 +36,16 @@ This dataset is about past loans. The Loan_train.csv data set includes details o
 First, we will find the best k to build the model with the best accuracy. For that, we will split our train_loan.csv into train and test to find the best __k__. We calculate the accuracy score of KNNs for different Ks and plot model accuracy for different number of Neighbors.
 
 #### Decision Tree
-We construct an image of the actual decision tree in terms as a flowchart using all features (independent variables).
+We construct an image of the actual decision tree in terms of a flowchart using all features (independent variables).
 
 #### Support Vector Machine
 We iterate for different kernels like Linear, Polynomial, Radial basis function (RBF) and Sigmoid to arrive at the one which best fits the data curve.
 
 #### Logistic Regression
-For this model, we use a User Defined Fun-ction to plot the coloured confusion matrix (without normalization so that we can analyze the distribution of True Positives/ False Positives/ True Negatives/ False Negatives 
+For this model, we use a User Defined Function to plot the coloured confusion matrix (without normalization so that we can analyze the distribution of True Positives/ False Positives/ True Negatives/ False Negatives 
 
 ## Model Evaluation using Test set
-We finally evaluate the accuracy of each of these models against a separate test set (on which the model was not trained), to check the out-of-fold prediction capability of the models. We do this using by calculating 2 indicative parameters: __Jaccard Index__ & __F1 score__. Additionally we also plot the precision and recall values (True Positives/ False Positives/ True Negatives/ False Negatives) for each model to get better visibility on the cases where it is failing. For the Logistic Regression model, we use an adiditional parameter called the Log Loss.
+We finally evaluate the accuracy of each of these models against a separate test set (on which the model was not trained), to check the out-of-fold prediction capability of the models. We do this by calculating 2 indicative parameters: __Jaccard Index__ & __F1 score__. Additionally we also plot the precision and recall values (True Positives/ False Positives/ True Negatives/ False Negatives) for each model to get better visibility on the cases where it is failing. For the Logistic Regression model, we use an adiditional parameter called the Log Loss.
 
 # Conclusion
 Lastly, we report the accuracy of the built models using different evaluation metrics:
