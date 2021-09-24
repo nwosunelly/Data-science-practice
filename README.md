@@ -20,7 +20,7 @@ This dataset is about past loans. The Loan_train.csv data set includes details o
 
 | Field          | Description                                                                           |
 |----------------|---------------------------------------------------------------------------------------|
-| Loan_status    | Whether a loan is paid off on in collection                                           |
+| Loan_status    | Whether a loan is paid off or in collection                                           |
 | Principal      | Basic principal loan amount                                                    |
 | Terms          | Origination terms which can be weekly (7 days), biweekly, and monthly payoff schedule |
 | Effective_date | When the loan got originated and took effects                                         |
